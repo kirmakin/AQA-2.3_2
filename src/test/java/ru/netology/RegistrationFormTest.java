@@ -10,8 +10,6 @@ import static com.codeborne.selenide.Selenide.*;
 import static ru.netology.DataGenerator.User.*;
 
 public class RegistrationFormTest {
-    SelenideElement submitButton = $("[data-test-id='action-login'] .button__text");
-    SelenideElement errorMessage = $("[data-test-id='error-notification'] .notification__content");
 
     @BeforeEach
     void setUp() {
